@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+{% block content %}
+
+    <li><a href ="{% urls 'page2'%}">Page 2</a></li>
+    <li><a href ="{% urls 'page3'  %}"> Page 3</a></li>
+    <li><a href ="{% urls 'page4'  %}">Page 4</a></li>
+    <li><a href ="{% urls 'page5'  %}"> Page 5 </a></li>
+
+
+{% end content %}
+</ul>
+
+</body>
+</html>
